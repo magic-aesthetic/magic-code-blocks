@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <style>
+    @keyframes spinner24-u-star1_ts__ts {
+    0% {scale(1,1);animation-timing-function:
+    cubic-bezier(0.6,0.04,0.98,0.335)}
+    25.641026% {transform: scale(0.3,0.3)}
+    46.153846% {transform: scale(0.3,0.3);animation-timing-function: cubic-bezier(0.155,0.72,0.22,0.91)}
+    100% {transform: scale(1,1)}}
+
+    @keyframes spinner24-u-star1_c_o {
+    0% {opacity: 1}
+    25% {opacity: 1;animation-timing-function: step-end}
+    25.641026% {opacity: 0}
+    45.512821% {opacity: 0;animation-timing-function:
+    cubic-bezier(0.19,1,0.22,1)}
+    46.153846% {opacity: 1}
+    100% {opacity: 1}}
+
+    @keyframes spinner24-s-g2_tr__tr {
+    0% {transform: rotate(0deg);animation-timing-function: cubic-bezier(0.395,0.265,0.62,0.71)}
+    100% {transform: rotate(248deg)}}
+
+
+    @keyframes spinner24-u-end_tr__tr {
+    0% {transform: translate(12.098479px,12.128479px) rotate(185deg)}
+    51.282051% {transform: translate(12.098479px,12.128479px) rotate(185deg);animation-timing-function: cubic-bezier(0.42,-0.015,0.035,1)}
+    100% {transform: translate(12.098479px,12.128479px) rotate(295deg)}}
+
+    @keyframes spinner24-u-start_tr__tr {
+    0% {transform: translate(12.128479px,12.098479px) rotate(185deg);animation-timing-function: cubic-bezier(0.42,-0.015,0.035,1)}
+    51.282051% {transform: translate(12.128479px,12.098479px) rotate(295deg)}
+    100% {transform: translate(12.128479px,12.098479px) rotate(295deg)}}
+
+    @keyframes spinner24-u-star2_ts__ts {
+    0% {transform: scale(1,1);animation-timing-function: cubic-bezier(0.6,0.04,0.98,0.335)}
+    20.512821% {transform: scale(0.3,0.3)}
+    66.025641% {transform: scale(0.3,0.3);animation-timing-function: cubic-bezier(0.435,0.71,0.22,0.91)}
+    100% {transform: scale(1,1)}}
+
+    @keyframes spinner24-u-star2_c_o {
+    0% {opacity: 1}
+    19.871795% {opacity: 1;animation-timing-function: step-end}
+    20.512821% {opacity: 0}
+    65.384615% {opacity: 0}
+    66.025641% {opacity: 1}
+    100% {opacity: 1}}
+  </style>
+  <g transform="translate(.000001 0)">
+    <g style="animation: spinner24-u-star1_ts__ts 1560ms linear infinite normal forwards; transform-origin: center; transform-box: fill-box;">
+      <path fill="white" style="animation: spinner24-u-star1_c_o 1560ms linear infinite normal forwards"
+            d="M5.260953,3.346191c.009191-.046319.091809-.046319.100999,0c.099576.502109.357459,1.532864.869677,2.045082s1.542976.7701,2.045085.869676c.046319.009191.046319.091809,0,.100999-.502109.099576-1.532866.357458-2.045085.869676s-.770101,1.54299-.869677,2.045058c-.00919.04636-.091808.04636-.100999,0-.099576-.502068-.357458-1.53284-.869676-2.045058s-1.542976-.7701-2.045085-.869676c-.046319-.00919-.046319-.091808,0-.100999.502109-.099576,1.532866-.357458,2.045085-.869676s.7701-1.542973.869676-2.045082Z"
+            transform="translate(6.809 2.969)" />
+    </g>
+    <g style="transform-origin: center;  animation: spinner24-s-g2_tr__tr 1560ms linear infinite normal forwards" transform="translate(12.129332,12) rotate(0)">
+      <g style="transform-origin: center; transform-box: fill-box; animation: spinner24-u-end_tr__tr 1560ms linear infinite normal forwards" transform="translate(12.098479,12.128479) rotate(185)">
+        <ellipse rx="8.5" ry="8.5" transform="translate(0,0)"
+                 fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+                 stroke-dashoffset="37.39" stroke-dasharray="37.385" />
+      </g>
+      <g  style="transform-origin: center; transform-box: fill-box; animation: spinner24-u-start_tr__tr 1560ms linear infinite normal forwards" transform="translate(12.128479,12.098479) rotate(185)">
+        <ellipse rx="8.5" ry="8.5" transform="translate(0,0)"
+                 fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+                 stroke-dashoffset="37.38" stroke-dasharray="37.38" />
+      </g>
+    </g>
+    <g style="animation: spinner24-u-star2_ts__ts 1560ms linear infinite normal forwards; transform-origin: center; transform-box: fill-box;" transform="scale(1,1)">
+      <path style=" animation: spinner24-u-star2_c_o 1560ms linear infinite normal forwards;"
+            fill="white" d="M6.24412,3.357772c.012254-.061759.122412-.061759.134666,0c.132768.669478.476611,2.043819,1.159569,2.726776s2.0573,1.0268,2.726779,1.159568c.061759.012254.061759.122411,0,.134666-.669479.132767-2.043821.47661-2.726779,1.159568s-1.026801,2.05732-1.159569,2.726743c-.012254.061813-.122412.061813-.134666,0-.132768-.669423-.476611-2.043786-1.159569-2.726743s-2.0573-1.026801-2.726779-1.159568c-.061759-.012255-.061759-.122412,0-.134666.669479-.132768,2.043821-.47661,2.726779-1.159568s1.026801-2.057298,1.159569-2.726776Z"
+            transform="translate(11.819 -3.191)"/>
+    </g>
+  </g>
+</svg>

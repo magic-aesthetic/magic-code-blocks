@@ -1,0 +1,184 @@
+.draggable {
+  cursor: pointer;
+  display: inline-block;
+}
+/* List item */
+.listItem {
+  margin-bottom: var(--ui-kit-space-1);
+}
+
+/* Code */
+.code {
+  font-family: "Menlo";
+}
+
+/* Thumbnail */
+.thumbnailGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--ui-kit-space-150);
+  margin-bottom: var(--ui-kit-space-3);
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.thumbnail {
+  width: 100%;
+  position: relative;
+  border-radius: calc(var(--ui-kit-border-radius) / 2);
+  cursor: pointer;
+}
+
+.thumbnail.active {
+  outline: solid 2px var(--ui-kit-color-primary);
+  outline-offset: var(--ui-kit-space-050);
+}
+
+/* Scroll container */
+.scrollContainer {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 100%;
+    padding-top: var(--ui-kit-space-2);
+    padding-right: var(--ui-kit-space-1);
+    padding-bottom: var(--ui-kit-space-2);
+
+    /* for firefox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--ui-kit-color-typography-quaternary) transparent;
+}
+
+.scrollContainer::-webkit-scrollbar {
+    position: absolute;
+    width: var(--ui-kit-base-unit);
+    height: 0;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+    background: transparent;
+    width: var(--ui-kit-base-unit);
+    margin-top: var(--ui-kit-space-1);
+    margin-bottom: var(--ui-kit-space-1);
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+    border-radius: var(--ui-kit-border-radius);
+    background: var(--ui-kit-color-typography-quaternary);
+    visibility: hidden;
+}
+
+.scrollContainer:hover::-webkit-scrollbar-thumb,
+.scrollContainer:focus::-webkit-scrollbar-thumb,
+.scrollContainer:focus-within::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+/* Draggable Video Component Styles */
+.draggableVideoContainer {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.previewVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.videoBadge {
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+}
+
+.badgeInner {
+  border-radius: 8px;
+  background-color: var(--ui-kit-color-contrast);
+  color: var(--ui-kit-color-contrast-fore);
+  padding: 0 6px;
+  height: 16px;
+  font-size: 10px;
+  font-family: "Canva Sans", Helvetica, sans-serif;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+}
+
+.previewContainer {
+   margin-top: 8px;
+}
+
+.scrollImage {
+  max-height: 220px;
+  overflow: scroll;
+}
+
+.scrollContainer textarea {
+  font-size: 12px;
+}
+
+.magicButtonContainer {
+  position: relative;
+}
+
+.magicButtonContainer:hover .magicButtonSparkles {
+   display: block;
+   pointer-events: none;
+}
+
+.magicButtonSparkles {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.inputContainer {
+  position: relative;
+}
+
+.magicLoading {
+  position: absolute;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgb(0, 196, 204), rgb(125, 42, 232));
+	animation: gradient 3s ease infinite;
+	background-size: 300% 300%;
+}
+
+.magicLoadingPositioner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 80px;
+  height: 80px;
+}
+
+.magicLoading svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
